@@ -8,6 +8,7 @@ img {
 }
 .links {
     height: 70px;
+    align-items: center;
 }
 ul {
     justify-content: space-around;
