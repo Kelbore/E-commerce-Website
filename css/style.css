@@ -1,8 +1,11 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-i:hover {
+i {
     color: white;
+}
+i:hover {
+    color: black;
 }
 img {
     width: 50%;
