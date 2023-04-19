@@ -1,16 +1,26 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+i:hover {
+    color: white;
+}
 img {
     width: 50%;
     height: 50%;
 }
 .links {
-    height: 70px;
+    height: 80px;
     align-items: center;
 }
 ul {
+    display: flex;
     justify-content: space-around;
+}
+#login:hover {
+    background-color: rgb(80, 77, 77);
+}
+#register:hover {
+    background-color: rgb(80, 77, 77);
 }
 .picture {
     margin-left: 400px;
@@ -18,17 +28,54 @@ ul {
 .footer {
     height: 200px;
 }
-#login-footer {
-    margin-top: 200px;
-}
 .footer-images img {
     display: inline;
     width: 30px;
 }
-.cart {
-    width: 30px;
+#login-footer {
+    margin-top: 200px;
 }
+/* .cart {
+    width: 30px;
+} */
 #user-info {
     margin-top: 200px;
     margin-left: 600px;
 }
+/*registration page */
+#register-main {
+    
+   /* margin-top: 100px;
+    margin-left: 600px;*/
+} 
+#register-form {
+    display: flex;
+    justify-content: center;
+}
+#register-form2 {
+    display: flex;
+    justify-content: center;
+}
+#register-footer {
+    margin-top: 100px;
+}
+
+#register-submit:hover {
+    background-color: rgb(80, 77, 77);
+}
+/* checkout page */
+td img{
+    width: 100px;
+    height: 100px;
+}
+#checkout-table {
+    display: flex;
+    justify-content: center;
+}
+#checkout-icon {
+    color: white;
+}
+#checkout-icon:hover {
+    color: black;
+}
+/* products page */
