@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/e9f090ffb3.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-light">
+      <!--nav-bar-->
         <header>
         <ul class="nav bg-dark links">
             <li class="nav-item">
@@ -30,6 +31,7 @@
          </li>-->
         </ul>
         </header>
+        <!--main section-->
           <main>
           <div class="container">
             <div class="row justify-content-center">
@@ -37,11 +39,11 @@
                     <form>
                         <h4>Add your card</h4><br>
                         <label for="cnumber">Card number</label><br>
-                        <input type="number" id="cnumber" placeholder="Card number"><br>
+                        <input type="number" id="cnumber" placeholder="Card number" required><br>
                         <label class="mt-3" for="edate">Expiration date</label><br>
-                        <input type="date" id="edate"><br>
+                        <input type="date" id="edate" required><br>
                         <label class="mt-3" for="name">Name on card</label><br>
-                        <input type="text" id="name" placeholder="First and last name"><br>
+                        <input type="text" id="name" placeholder="First and last name" required><br>
                         <a href="#" class="btn btn-warning mt-3" id="submit">Save and continue</a>
                      </form> 
                 </div>
@@ -56,14 +58,14 @@
                           <option value="uganda">Uganda</option>
                         </select><br>
                         <label for="fname">Full name</label><br>
-                        <input type="text" id="fname" placeholder="First and Last name"><br>
+                        <input type="text" id="fname" placeholder="First and Last name" required><br>
                         <label class="mt-3" for="pnumber">Phone number</label><br>
-                        <input type="number" id="pnumber" placeholder="Phone number"><br>
+                        <input type="number" id="pnumber" placeholder="Phone number" required><br>
                         <label class="mt-3" for="address">Address</label><br>
-                        <input type="text" id="address" placeholder="Street address or P.O.Box"><br>
-                        <input class="mt-3" type="text" id="uaddress" placeholder="Apt, Suite, Unit, Building(optional)"><br>
+                        <input type="text" id="address" placeholder="Street address or P.O.Box" required><br>
+                        <input class="mt-3" type="text" id="uaddress" placeholder="Apt, Suite, Unit, Building(optional)" required><br>
                         <label class="mt-3" for="city">City</label><br>
-                        <input type="text" id="city" placeholder="city">
+                        <input type="text" id="city" placeholder="city" required>
                         <label for="state">State:</label>
                       <select id="state" name="state">
                         <option value="georgia">Georgia</option>
@@ -72,7 +74,7 @@
                         <option value="ohio">Ohio</option>
                       </select><br>
                         <label for="code">Zip Code</label><br>
-                        <input type="number" id="code" placeholder="zip code"><br>
+                        <input type="number" id="code" placeholder="zip code" required><br>
                         <input type="checkbox" id="rme" name="rme">
                         <label class="mt-3" for="rme">Make this my default address</label><br>
                         <a href="#" class="btn btn-warning" id="add">Add address</a>
@@ -188,6 +190,7 @@
         </section>
        </div>
         </main>
+        <!--footer-->
          <footer class="bg-dark footer" id="checkout-footer">
           <div class="container">
           <div class="row">

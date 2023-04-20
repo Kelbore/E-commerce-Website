@@ -8,6 +8,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body class="bg-light">
+      <!--header-->
       <header>
           <ul class="nav bg-dark links">
             <li class="nav-item">
@@ -24,19 +25,21 @@
           </li>
           </ul>
         </header>
+        <!--main section-->
         <main id="user-info">
          <div class="container mt-5" id="login-form">
              <form>
                 <label for="uname">User Name</label><br>
-                <input class="mb-3" type="text" id="uname" placeholder="User Name" min="0" max="4"><br>
+                <input class="mb-3" type="text" id="uname" placeholder="User Name" required><br>
                 <label for="password">Password</label><br>
-                <input type="password" id="password" placeholder="password" min="0" max="8"><br>
+                <input type="password" id="password" placeholder="password" required><br>
                 <button type="button" class="btn btn-warning mt-3 mb-3" id="login">Login</button><br>
                 <input type="checkbox" id="rme" name="rme">
                 <label for="rme">Remember me.</label>
              </form>
          </div>
         </main>  
+        <!--footer section-->
         <footer class="bg-dark footer" id="login-footer">
           <div class="container">
           <div class="row">
