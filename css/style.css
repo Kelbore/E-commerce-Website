@@ -25,6 +25,9 @@ ul {
 #register:hover {
     background-color: rgb(80, 77, 77);
 }
+#submit:hover {
+    background-color: rgb(80, 77, 77);
+}
 .picture {
     margin-left: 400px;
 }
@@ -35,22 +38,22 @@ ul {
     display: inline;
     width: 30px;
 }
+/* login page */
+#login-form {
+    display: flex;
+    justify-content: center;
+}
 #login-footer {
     margin-top: 200px;
 }
-/* .cart {
-    width: 30px;
-} */
-#user-info {
-    margin-top: 200px;
-    margin-left: 600px;
+/*home-page */
+#home-carousel {
+    background-color: burlywood;
+}
+.content {
+    background-color: burlywood;
 }
 /*registration page */
-#register-main {
-    
-   /* margin-top: 100px;
-    margin-left: 600px;*/
-} 
 #register-form {
     display: flex;
     justify-content: center;
@@ -61,10 +64,6 @@ ul {
 }
 #register-footer {
     margin-top: 100px;
-}
-
-#register-submit:hover {
-    background-color: rgb(80, 77, 77);
 }
 /* checkout page */
 td img{
@@ -82,3 +81,7 @@ td img{
     color: black;
 }
 /* products page */
+#product-cards {
+    display: flex;
+    justify-content: center;
+}

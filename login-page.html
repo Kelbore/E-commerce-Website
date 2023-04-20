@@ -20,18 +20,18 @@
               <a class="nav-link" href="products-page.html">Products</a>
             </li>
             <li class="nav-item">
-              <a href="registration-page.html" class="btn btn-primary">Register</a>
+              <a href="registration-page.html" class="btn btn-primary" id="register">Register</a>
           </li>
           </ul>
         </header>
         <main id="user-info">
-         <div class="container">
+         <div class="container mt-5" id="login-form">
              <form action="">
                 <label for="uname">User Name</label><br>
                 <input class="mb-3" type="text" id="uname" placeholder="User Name"><br>
                 <label for="password">Password</label><br>
                 <input type="password" id="password" placeholder="password"><br>
-                <button type="button" class="btn btn-warning mt-3 mb-3">Login</button><br>
+                <button type="button" class="btn btn-warning mt-3 mb-3" id="login">Login</button><br>
                 <input type="checkbox" id="rme" name="rme">
                 <label for="rme">Remember me.</label>
              </form>
@@ -49,7 +49,7 @@
                   Phone number
                 </p>
              </div>
-             <div class="col-md-6 mt-3">
+             <div class="col-md-6 mt-3 bg-dark">
               <h3 class="text-success">Payment methods</h3>
               <div class="row footer-images ml-3"> 
                 <img src="./images/visa.png" title="" alt="Visa card">
