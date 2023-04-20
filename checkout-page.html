@@ -25,9 +25,9 @@
           <li class="nav-item">
             <a href="registration-page.html" class="btn btn-primary" id="register">Register</a>
           </li>
-          <li>
+          <!--<li>
           <i class="fa-sharp fa-solid fa-cart-shopping" id="checkout-icon"></i>
-         </li>
+         </li>-->
         </ul>
         </header>
           <main>
@@ -42,7 +42,7 @@
                         <input type="date" id="edate"><br>
                         <label class="mt-3" for="name">Name on card</label><br>
                         <input type="text" id="name" placeholder="First and last name"><br>
-                        <a href="#" class="btn btn-warning mt-3" id="submit">Add and continue</a>
+                        <a href="#" class="btn btn-warning mt-3" id="submit">Save and continue</a>
                      </form> 
                 </div>
                 <div class="col-md-6 mt-5">
@@ -60,8 +60,8 @@
                         <label class="mt-3" for="pnumber">Phone number</label><br>
                         <input type="number" id="pnumber" placeholder="Phone number"><br>
                         <label class="mt-3" for="address">Address</label><br>
-                        <input type="text" id="address" placeholder="Street address or P.O.Box">
-                        <input type="text" id="uaddress" placeholder="Apt, Suite, Unit, Building(optional)"><br>
+                        <input type="text" id="address" placeholder="Street address or P.O.Box"><br>
+                        <input class="mt-3" type="text" id="uaddress" placeholder="Apt, Suite, Unit, Building(optional)"><br>
                         <label class="mt-3" for="city">City</label><br>
                         <input type="text" id="city" placeholder="city">
                         <label for="state">State:</label>
@@ -70,12 +70,12 @@
                         <option value="florida">Florida</option>
                         <option value="california">California</option>
                         <option value="ohio">Ohio</option>
-                      </select>
-                        <label for="code">Zip Code</label>
+                      </select><br>
+                        <label for="code">Zip Code</label><br>
                         <input type="number" id="code" placeholder="zip code"><br>
                         <input type="checkbox" id="rme" name="rme">
                         <label class="mt-3" for="rme">Make this my default address</label><br>
-                        <a href="#" class="btn btn-warning">Add address</a>
+                        <a href="#" class="btn btn-warning" id="add">Add address</a>
                      </form>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                          <a class="ml-1.5" href="#">Compare with similar items</a>
                          <a class="ml-1.5" href="#">Share</a><br>
                          <p>price</p>
-                         <h3>$200</h3>
+                         <h3>$400</h3>
                        </form>
                        </td>
                 </tr>
@@ -128,7 +128,7 @@
                          <a class="ml-1.5" href="#">Compare with similar items</a>
                          <a class="ml-1.5" href="#">Share</a><br>
                          <p>price</p>
-                         <h3>$200</h3>
+                         <h3>$150</h3>
                        </form>
                        </td>
                 </tr>
@@ -164,7 +164,7 @@
                        <a class="ml-1.5" href="#">Compare with similar items</a>
                        <a class="ml-1.5" href="#">Share</a><br>
                        <p>price</p>
-                       <h3>$200</h3>
+                       <h3>$300</h3>
                      </form>
                      </td>
               </tr>

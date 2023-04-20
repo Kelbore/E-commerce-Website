@@ -80,8 +80,17 @@ td img{
 #checkout-icon:hover {
     color: black;
 }
+#add:hover {
+    background-color: rgb(80, 77, 77);
+}
 /* products page */
 #product-cards {
     display: flex;
     justify-content: center;
+}
+a[href="checkout-page.html"]:hover {
+    background-color: rgb(80, 77, 77);
+}
+#product-cards a[href="#"]:hover {
+    background-color: rgb(80, 77, 77);
 }
